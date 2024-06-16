@@ -1,0 +1,11 @@
+{
+  "username": "johndoe",
+  "tag": "johndoe",
+  "location": "New York, USA",
+  "avatar": "https://example.com/avatar.jpg",
+  "stats": {
+    "followers": 1200,
+    "views": 5000,
+    "likes": 300
+  }
+}

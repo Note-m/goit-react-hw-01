@@ -22,5 +22,5 @@
   height: 30px;
 }
 .transactionData:nth-child(2n + 1) {
-  background-color: gray;
+  background-color: lightgray;
 }

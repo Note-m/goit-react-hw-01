@@ -5,3 +5,9 @@
   align-items: center;
   flex-wrap: wrap;
 }
+.online {
+  color: rgb(23, 212, 23);
+}
+.offline {
+  color: red;
+}

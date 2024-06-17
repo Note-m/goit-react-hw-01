@@ -10,7 +10,13 @@ export default function UserProfile({
   return (
     <div className={css.profile}>
       <div className={css.description}>
-        <img src={avatar} alt="User avatar" className={css.avatar} />
+        <img
+          src={
+            avatar || 'https://cdn-icons-png.flaticon.com/512/2922/2922506.png'
+          }
+          alt="User avatar"
+          className={css.avatar}
+        />
         <p className={css.name}>{name}</p>
         <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
